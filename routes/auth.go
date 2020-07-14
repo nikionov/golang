@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/gavruk/go-blog-example/session"
+	"github.com/nikionov/golang/session"
 
 	"github.com/martini-contrib/render"
 )

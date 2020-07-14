@@ -3,15 +3,15 @@ package routes
 import (
 	"net/http"
 
-	"github.com/gavruk/go-blog-example/db/documents"
-	"github.com/gavruk/go-blog-example/models"
-	"github.com/gavruk/go-blog-example/session"
-	"github.com/gavruk/go-blog-example/utils"
+	"github.com/nikionov/golang/db/documents"
+	"github.com/nikionov/golang/models"
+	"github.com/nikionov/golang/session"
+	"github.com/nikionov/golang/utils"
 
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/render"
 
-	"labix.org/v2/mgo"
+	"gopkg.in/mgo.v2"
 )
 
 func WriteHandler(rnd render.Render, s *session.Session) {

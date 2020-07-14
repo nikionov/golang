@@ -3,13 +3,13 @@ package routes
 import (
 	"fmt"
 
-	"github.com/gavruk/go-blog-example/db/documents"
-	"github.com/gavruk/go-blog-example/models"
-	"github.com/gavruk/go-blog-example/session"
+	"github.com/nikionov/golang/db/documents"
+	"github.com/nikionov/golang/models"
+	"github.com/nikionov/golang/session"
 
 	"github.com/martini-contrib/render"
 
-	"labix.org/v2/mgo"
+	"gopkg.in/mgo.v2"
 )
 
 func IndexHandler(rnd render.Render, s *session.Session, db *mgo.Database) {

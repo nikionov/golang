@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/gavruk/go-blog-example/utils"
+	"github.com/nikionov/golang/utils"
 
 	"github.com/go-martini/martini"
 )

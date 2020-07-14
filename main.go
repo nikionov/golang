@@ -4,13 +4,12 @@ import (
 	"fmt"
 	"html/template"
 
-	"Desktop/web-blog_golang/routes"
-	"github.com/gavruk/go-blog-example/session"
-
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/render"
-
-	"labix.org/v2/mgo"
+	"github.com/nikionov/golang/routes"
+	"github.com/nikionov/golang/session"
+	"gopkg.in/mgo.v2"
+	"gopkg.in/mgo.v2/bson"
 )
 
 func unescape(x string) interface{} {
